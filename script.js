@@ -1,7 +1,7 @@
-function getFormValue(e) {
+function getFormValue() {
     //Write your code here
 	
-		e.preventDefault();
+		// e.preventDefault();
 		let fname= document.getElementById("firstname").value;
 		let lname= document.getElementById("lastname").value;
 		alert(`${fname} ${lname}`)
